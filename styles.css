@@ -1,3 +1,8 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
 .pageHeader{
     background-color: #1f2937;
     margin: auto;
@@ -8,10 +13,7 @@
     align-items: start;
     justify-content: space-between;
 }
-body{
-    margin: 0;
-    padding: 0;
-}
+
 
 .spanHeaders{
     display: flex;
@@ -55,4 +57,44 @@ button{
     height: 40px;
     border: none;
     margin-left: 25px;
+}
+
+.main{
+    background-image: url("./images/marassi.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-right: 40px;
+    padding-left: 40px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    height: 1000px;
+}
+
+.main img{
+    width: 250px;
+    height: 250px;
+}
+
+
+.main-div{
+    margin-top: 200px;
+    background-color: rgba(31, 41, 55,0.9);
+    color: #e5e7eb;
+    width: 400px;
+    height: 500px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.main-div:hover{
+    width: 450px;
+    height: 550px;
+    font-size: 18;
 }
